@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: cadetblue;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstdiv{
+    position: relative;
+    height: 10vh;
+    width: 40vw;
+    margin: 5px 10px;
+    border: 5px solid sienna;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.place_name{
+    color: burlywood;
+}
+.time{
+    color: deepskyblue;
+}
